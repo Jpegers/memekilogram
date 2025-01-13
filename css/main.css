@@ -197,7 +197,7 @@ h5 {
 iframe {
  display: block;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     border: 0;
     box-sizing: border-box; /* Для предотвращения переполнения */
 }
@@ -318,7 +318,7 @@ h5 {
 }
 
 iframe {
-    width: 86vw;
+    width: 80vw;
     height: 60vw;
     display: flex;
     justify-content: center;
