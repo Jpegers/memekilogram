@@ -318,12 +318,12 @@ h5 {
 }
 
 iframe {
-    width: 90vw;
+    width: 86vw;
     height: 60vw;
     display: flex;
     justify-content: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 }
