@@ -190,8 +190,18 @@ h5 {
     margin: 20px;
 }
 
+.graf {
+    margin: 3vw;
+}
 
-
+iframe {
+    width: 80vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
 
 
 
@@ -306,6 +316,15 @@ h5 {
 
 .pin p {
     font-size: 3.5vw;
+}
+
+iframe {
+    width: 80vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 }
