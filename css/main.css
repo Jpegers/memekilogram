@@ -195,6 +195,8 @@ h5 {
 }
 
 iframe {
+    width: 80vw;
+    height: 40vw;
     display: flex;
     justify-content: center;
     margin-left: 10vw;
