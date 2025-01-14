@@ -317,4 +317,15 @@ h5 {
     font-size: 3.5vw;
 }
 
+.graf {
+    margin-top: 5vw;
+    margin-bottom: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+iframe {
+    height: 440px;
+}
+
 }
