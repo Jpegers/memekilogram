@@ -190,23 +190,45 @@ h5 {
     margin: 20px;
 }
 
-.graf {
-    margin: 3vw;
+/* Общий стиль для контейнера */
+.graf-container {
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали (если нужно) */
+    min-height: 100vh; /* Занимаем высоту окна */
+    padding: 20px; /* Отступы внутри */
+    box-sizing: border-box; /* Учитываем padding в размер блока */
 }
 
-iframe {
- display: block;
-    width: 100%;
-    height: 70vh;
-    border: 0;
-    box-sizing: border-box; /* Для предотвращения переполнения */
+/* Стили для блока */
+.graf {
+    width: 100%; /* Занимает всю доступную ширину */
+    max-width: 900px; /* Максимальная ширина на больших экранах */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для блока */
+}
+
+/* Стили для заголовка */
+.graf h4 {
+    text-align: center; /* Центрируем текст */
+    margin-bottom: 2vw; /* Отступ снизу */
+    margin-top: 4vw;
+}
+
+/* Стили для iframe */
+.graf iframe {
+    width: 100%; /* Ширина на всю ширину родителя */
+    height: 60vw; /* Высота пропорциональна ширине (адаптивность) */
+    max-height: 600px; /* Ограничение высоты на больших экранах */
+    border: none; /* Убираем рамку */
 }
 
 
 
 
 /* моб версия */
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 768px)
     {
 
     .container img {
@@ -317,13 +339,9 @@ h5 {
     font-size: 3.5vw;
 }
 
-iframe {
-    width: 80vw;
-    height: 60vw;
-    display: flex;
-    justify-content: center;
-    margin-left: 7vw;
-    margin-right: 7vw;
+.graf iframe {
+    height: 100vw; /* Увеличиваем высоту для мобильных */
 }
+
 
 }
